@@ -111,18 +111,17 @@ body > footer {
 }
 
 /* Format headers */
-/* ~2/3 of template*/
 h1 {
   font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-top: 2rem;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.17rem;
   margin-top: 2rem;
 }
 
@@ -131,11 +130,11 @@ h4 {
 }
 
 h5 {
-  font-size: 0.75rem;
+  font-size: 0.83rem;
 }
 
 h6 {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 /* Prevent long strings from overflowing container */
@@ -370,7 +369,6 @@ table {
 td,
 th {
   border: 1px solid var(--border);
-  text-align: left;
   padding: 0.5rem;
 }
 
