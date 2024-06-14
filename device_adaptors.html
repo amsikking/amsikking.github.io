@@ -2,191 +2,321 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>amsikking: Device adaptors</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <script src="script.js"></script> -->
-</head>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<!-- <script src="script.js"></script> -->
+	<title>amsikking: Device adaptors</title>
+  </head>
 
-<body>
-<section>
-	<a href="./index.html">Home page</a>
-	<h1>amsikking: Device adaptors</h1>
-	<p>
-	A collection of devices I have controlled with software.
-	</p>
+  <body>
+	<header>
+	  <nav>
+	    <ul>
+		  <li><a href="./index.html">Home page</a></li>
+		</ul>
+	  </nav>
+	</header>
 
-	<h2>Autofocus</h2>
-	<dl>
-	
-	<dt><a href="https://github.com/amsikking/prior_PureFocus850">
-	prior_PureFocus850</a></dt>
-	<dd>Prior PureFocus850 Laser Autofocus System.</dd>
-	
-	</dl>
-	<h2>Cameras</h2>
-	<dl>
-
-	<dt><a href="https://github.com/amsikking/basler_acA2040-90um">
-	basler_acA2040-90um</a></dt>
-	<dd>Basler acA2040-90um USB 3.0 camera.</dd>
-
-	<dt><a href="https://github.com/amsikking/basler_acA4024-29um">
-	basler_acA4024-29um</a></dt>
-	<dd>Basler acA4024-29um USB 3.0 camera.</dd>
-
-	<dt><a href="https://github.com/amsikking/pco_edge26">
-	pco_edge26</a></dt>
-	<dd>PCO.edge 26 USB sCMOS camera.</dd>
-
-	<dt><a href="https://github.com/amsikking/pco_edge42_cl">
-	pco_edge42_cl</a></dt>
-	<dd>PCO.edge 4.2 CamLink sCMOS camera.</dd>
-
-	<dt><a href="https://github.com/amsikking/pco_panda42">
-	pco_panda42</a></dt>
-	<dd>PCO.panda 4.2 USB sCMOS camera.</dd>
-
-	<dt><a href="https://github.com/amsikking/pco_panda42_bi">
-	pco_panda42_bi</a></dt>
-	<dd>PCO.panda 4.2 bi USB sCMOS camera.</dd>
-
-	<dt><a href="https://github.com/amsikking/pco_pixelfly_usb">
-	pco_pixelfly_usb</a></dt>
-	<dd>PCO.pixelfly USB CCD camera (mono and color).</dd>
-
-	<dt><a href="https://github.com/amsikking/thorlabs_CS165MU1">
-	thorlabs_CS165MU1</a></dt>
-	<dd>Thorlabs CS165MU1 Zelux 1.6 MP Monochrome CMOS Camera.</dd>
-
-	<dt><a href="https://github.com/amsikking/tis_DMK_33UJ003">
-	tis_DMK_33UJ003</a></dt>
-	<dd>The Imaging Source DMK 33UJ003 USB 3.0 monochrome industrial camera.</dd>
-
-	</dl>
-	<h2>Data acquisition systems (DAQ)</h2>
-	<dl>
-	
-	<dt><a href="https://github.com/amsikking/ni_PCI_6733">
-	ni_PCI_6733</a></dt>
-	<dd>National Instruments 16‑Bit, 8 Channels, 1 MS/s Analog Output Device.</dd>
-
-	<dt><a href="https://github.com/amsikking/ni_PCIe_6738">
-	ni_PCIe_6738</a></dt>
-	<dd>National Instruments 16-Bit, 32 Channels, 1 MS/s Analog Output Device.</dd>
-
-	<dt><a href="https://github.com/amsikking/ni_PXIe_6739">
-	ni_PXIe_6739</a></dt>
-	<dd>National Instruments 16-Bit, 64-Channel, 1 MS/s PXI Analog Output Module.</dd>
-	
-	</dl>
-	<h2>Filter wheels and shutters</h2>
-	<dl>
-	
-	<dt><a href="https://github.com/amsikking/sutter_Lambda_10_3">
-	sutter_Lambda_10_3</a></dt>
-	<dd>Sutter Lambda 10-3 optical filter changer and SmartShutter® control
-	system.</dd>
-	
-	<dt><a href="https://github.com/amsikking/thorlabs_KSC101">
-	thorlabs_KSC101</a></dt>
-	<dd>Thorlabs KSC101 K-Cube solenoid controller.</dd>
-
-	<dt><a href="https://github.com/amsikking/thorlabs_MFF101">
-	thorlabs_MFF101</a></dt>
-	<dd>Thorlabs MFF101 motorized filter flip mount with Ø1" optic holder.</dd>
-
-	</dl>
-	<h2>Light sources</h2>
-	<dl>
-	
-	<dt><a href="https://github.com/amsikking/coherent_OBIS_LSLX_laser_box">
-	coherent_OBIS_LSLX_laser_box</a></dt>
-	<dd>Coherent OBIS LS/LX laser box.</dd>
+	<main>
+	  <h1>amsikking: Device adaptors</h1>
+	  <p>A collection of devices I have controlled with software.</p>
+		<section>
+		  <h2>Autofocus</h2>
+		  <dl>
+			<dt>
+			<a href="https://github.com/amsikking/prior_PureFocus850">
+			prior_PureFocus850</a>
+			</dt>
+			<dd>
+			Prior PureFocus850 Laser Autofocus System.
+			</dd>
+		  </dl>
 		
-	<dt><a href="https://github.com/amsikking/lumencor_Spectra_X">
-	lumencor_Spectra_X</a></dt>
-	<dd>Lumencor Spectra X light engine, 6 solid state sources.</dd>
-
-	</dl>
-	<h2>Microcontrollers</h2>
-	<dl>
+		  <h2>Cameras</h2>
+		  <dl>
+			<dt>
+			<a href="https://github.com/amsikking/basler_acA2040-90um">
+			basler_acA2040-90um</a>
+			</dt>
+			<dd>
+			Basler acA2040-90um USB 3.0 camera.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/basler_acA4024-29um">
+			basler_acA4024-29um</a>
+			</dt>
+			<dd>
+			Basler acA4024-29um USB 3.0 camera.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/pco_edge26">
+			pco_edge26</a>
+			</dt>
+			<dd>
+			PCO.edge 26 USB sCMOS camera.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/pco_edge42_cl">
+			pco_edge42_cl</a>
+			</dt>
+			<dd>
+			PCO.edge 4.2 CamLink sCMOS camera.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/pco_panda42">
+			pco_panda42</a>
+			</dt>
+			<dd>
+			PCO.panda 4.2 USB sCMOS camera.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/pco_panda42_bi">
+			pco_panda42_bi</a>
+			</dt>
+			<dd>
+			PCO.panda 4.2 bi USB sCMOS camera.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/pco_pixelfly_usb">
+			pco_pixelfly_usb</a>
+			</dt>
+			<dd>
+			PCO.pixelfly USB CCD camera (mono and color).
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_CS165MU1">
+			thorlabs_CS165MU1</a>
+			</dt>
+			<dd>
+			Thorlabs CS165MU1 Zelux 1.6 MP Monochrome CMOS Camera.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/tis_DMK_33UJ003">
+			tis_DMK_33UJ003</a>
+			</dt>
+			<dd>
+			The Imaging Source DMK 33UJ003 USB 3.0 monochrome industrial camera.
+			</dd>
+		  </dl>
 	
-	<dt><a href="https://github.com/amsikking/raspberry_pi_pico_rp2040/tree/main">
-	raspberry_pi_pico_rp2040</a></dt>
-	<dd>Raspberry Pi Pico RP2040 microcontroller with MicroPython.</dd>
+		  <h2>Data acquisition systems (DAQ)</h2>
+		  <dl>
+			<dt>
+			<a href="https://github.com/amsikking/ni_PCI_6733">
+			ni_PCI_6733</a>
+			</dt>
+			<dd>
+			National Instruments 16‑Bit, 8 Channels, 1 MS/s Analog Output Device.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/ni_PCIe_6738">
+			ni_PCIe_6738</a>
+			</dt>
+			<dd>
+			National Instruments 16-Bit, 32 Channels, 1 MS/s Analog Output Device.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/ni_PXIe_6739">
+			ni_PXIe_6739</a>
+			</dt>
+			<dd>
+			National Instruments 16-Bit, 64-Channel, 1 MS/s PXI Analog Output Module.
+			</dd>
+		  </dl>
+		  
+		  <h2>Filter wheels and shutters</h2>
+		  <dl>
+			<dt>
+			<a href="https://github.com/amsikking/sutter_Lambda_10_3">
+			sutter_Lambda_10_3</a>
+			</dt>
+			<dd>
+			Sutter Lambda 10-3 optical filter changer and SmartShutter® control
+			system.
+			</dd>
+			
+			<dt>
+			href="https://github.com/amsikking/thorlabs_KSC101">
+			thorlabs_KSC101</a>
+			</dt>
+			<dd>
+			Thorlabs KSC101 K-Cube solenoid controller.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_MFF101">
+			thorlabs_MFF101</a>
+			</dt>
+			<dd>
+			Thorlabs MFF101 motorized filter flip mount with Ø1" optic holder.
+			</dd>
+		  </dl>
+		  
+		  <h2>Light sources</h2>
+		  <dl>
+			<dt>
+			<a href="https://github.com/amsikking/coherent_OBIS_LSLX_laser_box">
+			coherent_OBIS_LSLX_laser_box</a>
+			</dt>
+			<dd>
+			Coherent OBIS LS/LX laser box.
+			</dd>
+		  
+			<dt>
+			<a href="https://github.com/amsikking/lumencor_Spectra_X">
+			lumencor_Spectra_X</a>
+			</dt>
+			<dd>
+			Lumencor Spectra X light engine, 6 solid state sources.
+			</dd>
+		  </dl>
+		  
+		  <h2>Microcontrollers</h2>
+		  <dl>
+			<dt>
+			<a href="https://github.com/amsikking/raspberry_pi_pico_rp2040/tree/main">
+			raspberry_pi_pico_rp2040</a>
+			</dt>
+			<dd>
+			Raspberry Pi Pico RP2040 microcontroller with MicroPython.
+			</dd>
+		  </dl>
+		  
+		  <h2>Motion</h2>
+		  <dl>
+			<dt>
+			<a href="https://github.com/amsikking/asi_MS_2000_500_CP">
+			asi_MS_2000_500_CP</a>
+			</dt>
+			<dd>
+			ASI MS-2000-500-CP multi-axis stage controller.
+			</dd>
 
-	</dl>
-	<h2>Motion</h2>
-	<dl>
-	
-	<dt><a href="https://github.com/amsikking/asi_MS_2000_500_CP">
-	asi_MS_2000_500_CP</a></dt>
-	<dd>ASI MS-2000-500-CP multi-axis stage controller.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/pi_C_867_2U2">
+			pi_C_867_2U2</a>
+			</dt>
+			<dd>
+			Physik Instrumente C-867.2U2 motion controller, for two-axis ultrasonic
+			piezo stages.
+			</dd>
 
-	<dt><a href="https://github.com/amsikking/pi_C_867_2U2">
-	pi_C_867_2U2</a></dt>
-	<dd>Physik Instrumente C-867.2U2 motion controller, for two-axis ultrasonic
-	piezo stages.</dd>
-
-	<dt><a href="https://github.com/amsikking/pi_E_753_1CD">
-	pi_E_753_1CD</a></dt>
-	<dd>Physik Instrumente E-753.1CD, high-speed, single-axis, digital piezo
-	controller.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/pi_E_753_1CD">
+			pi_E_753_1CD</a>
+			</dt>
+			<dd>
+			Physik Instrumente E-753.1CD, high-speed, single-axis, digital piezo
+			controller.
+			</dd>
 		
-	<dt><a href="https://github.com/amsikking/pi_E_709_1C1L">
-	pi_E_709_1C1L</a></dt>
-	<dd>Physik Instrumente E-709.1C1L, compact single axis digital piezo controller
-	for capacitive sensors.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/pi_E_709_1C1L">
+			pi_E_709_1C1L</a>
+			</dt>
+			<dd>Physik Instrumente E-709.1C1L, compact single axis digital piezo
+			controller for capacitive sensors.
+			</dd>
 
-	<dt><a href="https://github.com/amsikking/pi_E_709_SRG">
-	pi_E_709_SRG</a></dt>
-	<dd>Physik Instrumente E-709.SRG, compact single axis digital piezo controller
-	for piezoresistive and capacitive sensors.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/pi_E_709_SRG">
+			pi_E_709_SRG</a>
+			</dt>
+			<dd>
+			Physik Instrumente E-709.SRG, compact single axis digital piezo
+			controller for piezoresistive and capacitive sensors.
+			</dd>
 
-	<dt><a href="https://github.com/amsikking/thorlabs_DDS050">
-	thorlabs_DDS050</a></dt>
-	<dd>Thorlabs DDS050 compact 50 mm direct drive stage.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_DDS050">
+			thorlabs_DDS050</a>
+			</dt>
+			<dd>
+			Thorlabs DDS050 compact 50 mm direct drive stage.
+			</dd>
 
-	<dt><a href="https://github.com/amsikking/thorlabs_DDS100">
-	thorlabs_DDS100</a></dt>
-	<dd>Thorlabs DDS100 compact 100 mm direct drive stage.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_DDS100">
+			thorlabs_DDS100</a>
+			</dt>
+			<dd>
+			Thorlabs DDS100 compact 100 mm direct drive stage.
+			</dd>
 		
-	<dt><a href="https://github.com/amsikking/thorlabs_MCM3000">
-	thorlabs_MCM3000</a></dt>
-	<dd>Thorlabs MCM3000 Series 3-Axis Controller.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_MCM3000">
+			thorlabs_MCM3000</a>
+			</dt>
+			<dd>
+			Thorlabs MCM3000 Series 3-Axis Controller.
+			</dd>
 
-	<dt><a href="https://github.com/amsikking/thorlabs_MDT694B">
-	thorlabs_MDT694B</a></dt>
-	<dd>Thorlabs MDT694B single channel open-loop piezo controller.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_MDT694B">
+			thorlabs_MDT694B</a>
+			</dt>
+			<dd>
+			Thorlabs MDT694B single channel open-loop piezo controller.
+			</dd>
 
-	<dt><a href="https://github.com/amsikking/thorlabs_MLJ050">
-	thorlabs_MLJ050</a></dt>
-	<dd>Thorlabs MLJ050 motorized high-load vertical translation stage, 50 mm travel.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_MLJ050">
+			thorlabs_MLJ050</a>
+			</dt>
+			<dd>
+			Thorlabs MLJ050 motorized high-load vertical translation stage, 
+			50 mm travel.
+			</dd>
 
-	<dt><a href="https://github.com/amsikking/thorlabs_MLJ150">
-	thorlabs_MLJ150</a></dt>
-	<dd>Thorlabs MLJ150 motorized high-load vertical translation stage, 50 mm travel.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_MLJ150">
+			thorlabs_MLJ150</a>
+			</dt>
+			<dd>
+			Thorlabs MLJ150 motorized high-load vertical translation stage, 
+			50 mm travel.
+			</dd>
 
-	<dt><a href="https://github.com/amsikking/thorlabs_MLJ_Z_stage">
-	thorlabs_MLJ_Z_stage</a></dt>
-	<dd>Dual synchronized Thorlabs MLJ motorized high-load vertical translation stages,
-	50 mm travel</dd>
-
-	</dl>	
-	<h2>Temperature</h2>
-	<dl>
-
-	<dt><a href="https://github.com/amsikking/thorlabs_TC200">
-	thorlabs_TC200</a></dt>
-	<dd>Thorlabs TC200 temperature controller.</dd>
-
-	<dt><a href="https://github.com/amsikking/thorlabs_TSP01B">
-	thorlabs_TSP01B</a></dt>
-	<dd>Thorlabs TSP01 RevB USB temperature and humidity data logger.</dd>
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_MLJ_Z_stage">
+			thorlabs_MLJ_Z_stage</a>
+			</dt>
+			<dd>Dual synchronized Thorlabs MLJ motorized high-load vertical 
+			translation stages, 50 mm travel.
+			</dd>
+		  </dl>
 	
-	</dl>
-</section>
-</body>
+		  <h2>Temperature</h2>
+		  <dl>
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_TC200">
+			thorlabs_TC200</a>
+			</dt>
+			<dd>
+			Thorlabs TC200 temperature controller.
+			</dd>
+			
+			<dt>
+			<a href="https://github.com/amsikking/thorlabs_TSP01B">
+			thorlabs_TSP01B</a>
+			</dt>
+			<dd>
+			Thorlabs TSP01 RevB USB temperature and humidity data logger.
+			</dd>
+		  </dl>
+		</section>
+	</main>
+  </body>
 </html>
