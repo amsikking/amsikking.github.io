@@ -529,6 +529,10 @@ blockquote {
   font-style: italic;
 }
 
+sup {
+	vertical-align: top;
+}
+
 cite {
   vertical-align: super;
   font-size: 0.7rem;
@@ -599,4 +603,41 @@ progress::-moz-progress-bar {
 
 progress:indeterminate::-moz-progress-bar {
   background-color: var(--accent-bg);
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flexboxc1 {
+  flex: 1;
+  margin: 1rem;
+  /* background-color: blue; */
+}
+
+.flexboxc2 {
+  flex: 2;
+  margin: 1rem;
+  /* background-color: red; */
+}
+
+.flexboxc3 {
+  flex: 3;
+  margin: 1rem;
+  /* background-color: red; */
+}
+
+@media screen {
+   .hideonscreen {
+       display: none;
+   }
+}
+
+@media print {
+    .pagebreak {
+	page-break-after: always;
+	}
+   .hideonprint {
+       display: none;
+   }
 }
