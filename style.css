@@ -98,7 +98,7 @@ body > header p {
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 
 body > footer {
@@ -112,7 +112,7 @@ body > footer {
 
 /* Format headers */
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 h2 {
@@ -252,7 +252,7 @@ header > nav ol {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -330,8 +330,8 @@ section h2:first-child {
 section {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  padding: 2rem 1rem;
-  margin: 3rem 0;
+  padding: 1rem 1rem;
+  margin: 2rem 0;
 }
 
 summary {
